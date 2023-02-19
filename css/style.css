@@ -1,0 +1,191 @@
+/* class =  .menu id= #menu  */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display';
+}
+
+.menu {
+  width: 100%; /* LARGURA 100% tela toda */
+  position: fixed; /* posicao fixa na barra de rolagem, rola com o mouse fica fixa na tela */
+  background-color: #ffffff; /* cor de fundo */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); /*sombra do quadrado */
+  z-index: 2;
+}
+
+.menu ul {
+    height: 54px;   /* altura */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 16px 0 16px;
+}
+
+.menu ul div {
+    display: flex;
+}
+
+.menu ul div:last-child li {
+    padding-left: 16px;
+}
+
+.menu ul li a {
+    background-color: #FFF;
+    color: #333;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.menu ul li a:hover {
+    background-color: #CCC;
+    color: #000;
+}
+
+.header-img {
+    margin: 0 auto 72px auto;
+    max-width: 1600px;
+    position: relative;
+}
+
+.header-img h1 {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.about > div {
+    display: flex;
+    max-width: 1100px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #eee;
+}
+
+.about-text {
+    padding-left: 48px;
+}
+
+.about-text h1, .about-text h5 {
+    text-align: center;
+}
+
+.about-text p:last-child {
+    color: #aaa; 
+}
+
+.about-text h1 {
+    margin-bottom: 52px;
+}
+
+.about-text h5, .about-text p {
+    margin-bottom: 24px;
+}
+
+.about-text p {
+    line-height: 30px;
+}
+
+.about-text mark{
+    background-color: #eee;
+    padding: 5px;
+}
+
+.menu-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.menu-section > div {
+    display: flex;
+    max-width: 1100px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-section-text {
+    padding-right: 48px;
+}
+
+.menu-section-text h4 {
+    font-size: 20px;
+}
+
+.menu-section-text h4 {
+    margin-bottom: 24px;
+}
+
+.menu-section-text h1 {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.menu-section-text p {
+    color: #aaa;
+    margin-bottom: 36px;
+}
+
+.contact-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.contact-section > div {
+    display: flex;
+    max-width: 1100px;
+    padding-bottom: 75px;
+    flex-wrap: wrap;
+}
+.contact-text h1 {
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.contact-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contact-text-highlight {
+    font-size: 22px !important;
+    color: #607d8b;
+    font-weight: bold;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.contact-form button{  
+    padding: 8px 16px;
+    background-color: #eee;
+    border: none;
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    height: 120px;
+}
